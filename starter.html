@@ -28,11 +28,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <style>
-    a {
-      color: #fff;
-    }
-    </style>
   </head>
   <!--
   BODY TAG OPTIONS:
@@ -295,52 +290,64 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
           </div>
           <!-- /.box -->
-
-          <div class="box box-default">
-              <div class="box-header with-border">
-                  <h3 class="box-title">Choose Your Targets</h3>
-                  <div class="box-tools pull-right">
-                      <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                      </button>
+          <div class="row">
+            <div class="col-md-6">
+                <div class="box box-solid box-default">
+                  <div class="box-header with-border">
+                      <h3 class="box-title">Choose Your Targets</h3>
+                      <div class="box-tools pull-right">
+                          <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                          </button>
+                      </div>
+                      <!-- /.box-tools -->
                   </div>
-                  <!-- /.box-tools -->
+                  <!-- /.box-header -->
+                  <div class="box-body" style="padding:0px;">
+                    <section id="sidebar" style="height: auto; background: #222d32;">
+                      <ul id="sidebar-menu" class="sidebar-menu"></ul>
+                    </section>
+                  </div>
+                  <!-- /.box-body -->
               </div>
-              <!-- /.box-header -->
-              <div class="box-body" style="padding:0px;">
-                <section id="sidebar" style="height: auto; background: #222d32;">
-                  <ul id="sidebar-menu" class="sidebar-menu"></ul>
-                </section>
-              </div>
-              <!-- /.box-body -->
+            </div>
+            <div class="col-md-6">
+              <!-- /.box -->
+              <div class="box box-solid box-default">
+                <div class="box-header with-border">
+                  <h3 class="box-title">最後選擇要展開的特徵</h3>
+                  <div class="box-tools pull-right">
+                    <!-- Buttons, labels, and many other things can be placed here! -->
+                    <!-- Here is a label for example -->
+                    <span class="label label-primary">選擇結果</span>
+                  </div><!-- /.box-tools -->
+                </div><!-- /.box-header -->
+                <div class="box-body" style="padding:0px;">
+                    <section style="height: auto; background: #222d32;">
+                      <ul id="result-menu" class="sidebar-menu"></ul>
+                    </section>
+                </div><!-- /.box-body -->
+                <div class="box-footer text-center">
+                  <a href="javascript::;" class="uppercase">點擊送出</a>
+                </div>
+              </div><!-- /.box -->
+            </div>
           </div>
 
 
 
-          <!-- /.box -->
-          <div class="box">
-            <div class="box-header with-border">
-              <h3 class="box-title">Default Box Example</h3>
-              <div class="box-tools pull-right">
-                <!-- Buttons, labels, and many other things can be placed here! -->
-                <!-- Here is a label for example -->
-                <span class="label label-primary">Label</span>
-              </div><!-- /.box-tools -->
-            </div><!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div><!-- /.box-body -->
-            <div class="box-footer text-center">
-              <a href="javascript::;" class="uppercase">View All Products</a>
-            </div>
-          </div><!-- /.box -->
 
 
 
 
 
-<div class="box">
+
+
+<div class="box box-solid box-default">
                 <div class="box-header">
                   <h3 class="box-title">Responsive Hover Table</h3>
+                  <span class="label label-primary">選擇結果</span>
+                  <span class="label label-primary">選擇結果</span>
+                  <span class="label label-primary">選擇結果</span>
                   <div class="box-tools">
                     <div class="input-group">
                       <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search">
@@ -392,9 +399,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
 
 
-<div class="box">
+<div class="box box-solid box-default">
                 <div class="box-header">
                   <h3 class="box-title">Data Table With Full Features</h3>
+                  <span class="label label-primary">選擇結果</span>
                 </div><!-- /.box-header -->
                 <div class="box-body">
                   <div id="example1_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="row"><div class="col-xs-6"><div id="example1_length" class="dataTables_length"><label><select size="1" name="example1_length" aria-controls="example1"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> records per page</label></div></div><div class="col-xs-6"><div class="dataTables_filter" id="example1_filter"><label>Search: <input type="text" aria-controls="example1"></label></div></div></div><table id="example1" class="table table-bordered table-striped dataTable" aria-describedby="example1_info">
